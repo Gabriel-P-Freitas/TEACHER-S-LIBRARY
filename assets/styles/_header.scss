@@ -1,0 +1,19 @@
+header{
+    background-color: var(--gray-6);
+    padding: 2rem 0px;
+}
+
+.header-content{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation ul{
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1.5rem;
+}
